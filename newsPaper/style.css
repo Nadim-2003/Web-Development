@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(254, 253, 249, 255);
+}
+.main{
+    margin:120px 200px;
+   
+}
+.main img{
+
+}
+.menu{
+    text-align:end;
+    position: relative;
+    top: -33px;
+    right: 60px;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(132, 122, 103);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.child1{
+    display: flex;
+    gap: 15px;
+}
+.child1 img{
+    height: 300px;
+    width: 700px;
+}
+.innerChild{
+    background: rgb(24, 2, 38);
+    color: rgb(181, 193, 8);
+    height: 500px;
+    width: 330px;
+    padding: 30px 35px;
+    border-radius: 4px;
+    
+}
+.innerChild section{
+    margin: 30px 0px;
+    color: rgba(245, 245, 245, 0.727);
+   
+}
+
+.innerChild section h3{
+    margin-bottom: 15px;
+    
+}
+
+.innerChild section h3 a{
+    text-decoration: none;
+    color: rgb(252, 252, 250);
+    font-weight: bold;
+}
+.innerChild section h3 a:hover {
+    color: rgb(245, 188, 16);
+}
+.news{
+    height: 50px;
+    width: 250px;
+    position: relative;
+    top: -180px;
+}
+
+.news h2{
+    font-size: 50px;
+    font-weight:bolder;
+    float: left;
+}
+.news section pre{
+    position: absolute;
+    top: 20px;
+    left: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(157, 158, 159, 0.973);
+}
+.news section a{
+    position: absolute;
+    top: 120px;
+    left: 314px;
+    text-decoration: none;
+    width: 200px;
+    background-color: tomato;
+    text-align: center;
+    padding: 20px 20px;
+    color: rgb(255, 254, 253);
+    /* border-radius: 3px; */
+    font-size: 18px;
+    word-spacing: 5px;
+}
+.news section a:hover{
+    background: rgb(238, 9, 222);
+}
